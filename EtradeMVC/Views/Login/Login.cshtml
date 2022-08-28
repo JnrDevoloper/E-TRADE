@@ -1,0 +1,42 @@
+﻿@model EtradeMVC.Models.MemberAddViewModelcs
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="text-center">
+
+    <img width="200" height="200" src="~/Images/logo.png" />
+    <main>
+        @using (Html.BeginForm())
+        {
+
+
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+            <div class="form-floating">
+                <input type="text" id="userName" name="member.userName" placeholder="User Name" width="200" height="20">
+
+            </div>
+            <div class="form-floating">
+                <input type="text" id="password" name="member.password" placeholder="Password">
+
+            </div>
+
+            <button type="submit" width="200" height="100">Sign in</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
+        }
+    </main>
+
+
+
+</body>
+</html>

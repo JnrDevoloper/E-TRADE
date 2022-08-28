@@ -1,0 +1,1 @@
+C:\Users\canof\source\repos\ETrade\Etrade.BusinessCore\obj\Debug\Etrade.BusinessCore.csproj.CoreCompileInputs.cache
